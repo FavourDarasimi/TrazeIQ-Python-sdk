@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trazeiq"
+version = "0.1.0"
+description = "TrazeIQ error-monitoring SDK — thin wrapper over POST /api/v1/events/. Zero dependencies (stdlib only)."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["trazeiq", "error-monitoring", "observability"]
+
+[project.urls]
+Homepage = "https://github.com/trazeiq/trazeiq"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["trazeiq*"]

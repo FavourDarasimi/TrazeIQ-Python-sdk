@@ -1,0 +1,29 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Env / secrets (never commit keys)
+.env
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
