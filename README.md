@@ -15,7 +15,7 @@ import trazeiq
 
 trazeiq.init(
     api_key="YOUR_API_KEY",  # raw key shown once at project creation
-    # endpoint="https://api.trazeiq.io",  # optional, this is the default
+    endpoint="https://api.trazeiq.io",  # optional (this is the default); override for self-host/staging
     environment="production",
     service="payment-api",
 )
